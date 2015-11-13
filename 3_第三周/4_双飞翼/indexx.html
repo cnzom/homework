@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>双飞翼布局实验</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .atricle {
+        background-color: green;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .atricle .left {
+        background-color: blue;
+        color: white;
+        width: 150px;
+        float: left;
+        margin-left: -100%;
+        overflow: hidden;
+        /*        position: relative;
+        left: -150px;*/
+    }
+    
+    .atricle .right {
+        background-color: aquamarine;
+        width: 100px;
+        float: right;
+        margin-left: -150px;
+    }
+    
+    .atricle .middle {
+        background-color: brown;
+        float: left;
+        width: 100%;
+    }
+    
+    .inner {
+        margin: 0 100px 0 150px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="atricle">
+        <div class="middle">
+            <div class="inner">我是中间</div>
+        </div>
+        <div class="left">我是左边</div>
+        <div class="right">我是右边</div>
+    </div>
+</body>
+
+</html>

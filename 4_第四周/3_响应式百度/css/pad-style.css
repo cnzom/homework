@@ -1,0 +1,137 @@
+.wap-wrapper,
+.pc-wrapper {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*head*/
+
+
+/*右上角icon*/
+
+.top_menu_wrapper {
+    width: 100%;
+    height: 60px;
+}
+
+.top_menu_icon {
+    width: 170px;
+    height: 45px;
+    float: right;
+    padding: 15px 0 0 0;
+}
+
+.top_menu_icon [class*="menu-icon_"] {
+    width: 50px;
+    height: 30px;
+    background-image: url(../img/icon_menu.png);
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.menu-icon_1 {
+    background-position: 0 -5px;
+}
+
+.menu-icon_2 {
+    background-position: 33.333% -5px;
+}
+
+.menu-icon_3 {
+    background-position: 66.666% -5px;
+}
+
+
+/*右上角icon  end*/
+
+
+/*logo*/
+
+.top_logo {
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+
+.logo_wrapper {
+    width: 220px;
+    height: 71px;
+    margin: 29px 25px 15px -110px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+}
+
+.logo_img {
+    width: 220px;
+    height: 71px;
+}
+
+
+/*logo end*/
+
+
+/*form */
+
+.top_input {
+    width: 100%;
+    height: 47px;
+    margin-top: 15px;
+}
+
+.input_wrapper {
+    width: 708px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.form-input {
+    border: 1px solid #3385ff;
+}
+
+.form .wd {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 605px;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    padding: 11px;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.form .submit_input {
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    float: right;
+    border: 0;
+}
+
+
+/*form end*/
+
+
+/*head end*/
+
+.footer {
+    color: #C6C9CD;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: 0px;
+}

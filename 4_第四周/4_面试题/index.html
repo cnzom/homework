@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>面试题作业</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h3>1、如何让一个区块居中?(A、B)</h3>
+    <p>
+        A. center
+        <br/> B. center-block
+        <br/> C. horizontal-center
+        <br/> D. vertical-center
+    </p>
+    <div class="container">
+        <div class="a1 center-block"></div>
+    </div>
+    <hr/>
+    <h3>2、哪些是正确的辅助类(A、B、C、D)</h3>
+    <p>
+        A. text-muted
+        <br/> B. text-success
+        <br/> C. text-info
+        <br/> D. text-warning
+    </p>
+    <p class="text-muted">辅助类辅助类辅助类辅助类</p>
+    <p class="text-primary">辅助类辅助类辅助类辅助类</p>
+    <p class="text-success">辅助类辅助类辅助类辅助类</p>
+    <p class="text-info">辅助类辅助类辅助类辅助类</p>
+    <p class="text-warning">辅助类辅助类辅助类辅助类</p>
+    <p class="text-danger">辅助类辅助类辅助类辅助类</p>
+    <hr/>
+    <h3>3、关于栅格系统,哪些是正确的(A、B、C、D)</h3>
+    <p>
+        A. col-sm-*
+        <br/> B. col-xs-*
+        <br/> C. col-md-*
+        <br/> D. col-lg-*
+    </p>
+    <div class="container a2">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">中等屏幕 桌面显示器 (≥992px) 以及大屏幕 大桌面显示器 (≥1200px)4、8分</div>
+            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">超小屏幕 手机 (
+                <768px) 以及小屏幕 平板 6、6分(≥768px)</div>
+            </div>
+        </div>
+        <hr/>
+        <h3>4、CSS3支持下列哪一个标签?(A)</h3>
+        <p>A. box-shadow
+            <br/> B. border
+            <br/> C. background
+            <br/> D. display
+        </p>
+        <div class="a3 center-block">box-shadow为CSS3中的属性，用来设置阴影</div>
+        <hr/>
+        <h3>5、把鼠标移到按钮并点击时,会产生一串什么样的事件?(D)</h3>
+        <p>A. active hove focus
+            <br/> B. foucs hove active
+            <br/> C. hove active foucus
+            <br/> D. hover focus active
+        </p>
+        <button class="a5" type="submit">
+            hover:设置元素在其鼠标悬停时的样式。
+            <br/> focus:在成为输入内容的时候的样式。
+            <br/> active:在点击与释放时的样式。
+            <br/>
+        </button>
+        <hr/>
+        <h3>6、以下位于&lthead&gt间的代码片段是做什么用的(B)</h3>
+        <p>
+            <pre> &ltmeta name="viewport" content="width=device-width, initial-scale=1"&gt</pre> A. 使得页面编码合乎要求
+            <br/> B. 表示支持响应式设计
+            <br/> C. 支持正常的绘制和缩放
+            <br/> D. 表示针对滚屏进行适当的适配
+        </p>
+        <hr/>
+        <h3>7、在使用table表现数据时,有时候表现出来的会比自己实际设置的宽度要宽,为此需 要设置下面哪些属性值?(A、D)</h3>
+        <p>
+            A. 使得页面编码合乎要求
+            <br/> B. 表示支持响应式设计
+            <br/> C. 支持正常的绘制和缩放
+            <br/> D. 表示针对滚屏进行适当的适配
+        </p>
+        <table cellpadding="0" cellspacing="0" border="1px" class="a7">
+            <tr>
+                <td>表格</td>
+                <td>表格</td>
+                <td>表格</td>
+            </tr>
+        </table>
+        <hr/>
+        <h3>8、在bootstrap中,关于导航条,下列说法正确的是?(A、B、C、D)</h3>
+        <p>
+            A. 应该将被包裹的元素放到navbar-collapse类中
+            <br/> B. 表单应该放置于navbar-form内
+            <br/> C. 可以使用navbar-left和navbar-right来对齐导航条
+            <br/> D. 可以使用navbar-fixed-top和navbar-fixed-bottom来将导航条固定到顶部或底部
+            <br/>
+            <nav class="navbar navbar-inverse ">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">导航条</a>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">导航条</a>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">导航条</a>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">导航条</a>
+                    </div>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </nav>
+        </p>
+        <hr/>
+        <h3>9、嵌入在HTML文档中的图像格式可以是?(A、C、D)</h3>
+        <p>A. *.gif
+            <br/> B. *.tif
+            <br/> C. *.bmp
+            <br/> D. *.jpg
+        </p>
+        <hr/>
+        <h3>10、元素的alt和title有什么异同,选出正确的说法?(B)</h3>
+        <p>
+            A. 不同的浏览器,表现一样
+            <br/> B. alt和title同时设置的时候,alt作为图片的替代文字出现,title是图片的解释文字
+            <br/> C. alt和title同时设置的时候,title作为图片的替代文字出现,alt是图片的解释文字
+            <br/> D. 以上说法都不正确
+        </p>
+        <hr/>
+        <h3>11、对于border-radius标签,说法错误的是</h3>
+        <p>A. 表示圆角边框
+            <br/> B. IE8支持良好
+            <br/> C. IE9支持良好
+            <br/> D. firefox支持良好
+        </p>
+        <hr/>
+        <h3>12、下面有关html Doctype的描述,说法错误的是?(D)</h3>
+        <p>A. 它的责任就是告诉浏览器文档使用哪种html或者xhtml规范
+            <br/> B. 不同文档模式主要影响CSS内容的呈现,尤其是浏览器对盒模型的解析
+            <br/> C. 不同浏览器在混杂模式下的行为差异非常大,如果不使用某些hack技术,跨浏览器 的行为根本就没有一致性可言。
+            <br/> D. 如果在文档开始处没有发现文档类型声明,则所有浏览器都会默认开启严格模式
+        </p>
+        <hr/>
+        <h3>13、前端页面有哪三层构成,分别是什么?作用是什么?</h3>
+        <p>
+            结构层 HTML 表示层 CSS 行为层 js
+            <br/>
+        </p>
+        <hr/>
+        <h3>14、你做的页面在哪些流览器测试过?这些浏览器的内核分别是什么?</h3>
+        <p>
+            Ie(Ie内核) 火狐(Gecko) 谷歌(webkit) opear(Presto)
+            <br/>
+        </p>
+        <hr/>
+        <h3>15、对语义化如何理解?</h3>
+        <p>
+            用正确的标签做正确的事情! HTML语义化就是让页面的内容结构化,便于对浏览器、搜索引擎解析;在没有样式CCS 情况下也以一种文档格式显示,并且是容易阅读的。搜索引擎的爬虫依赖于标记来确定 上下文和各个关键字的权重,利于 SEO。使阅读源代码的人对网站更容易将网站分块, 便于阅读维护理解。
+        </p>
+        <hr/>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.pc-wrapper{
+    display: none!important;
+}
+.pad-wrapper {
+    display: none!important;
+}
+body{
+	background-color: red;
+}
+.head-icon{
+	width: 42px;
+	height: 32px; 
+}
+

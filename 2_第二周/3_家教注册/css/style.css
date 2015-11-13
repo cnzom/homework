@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("../img/beijing.gif");
+    min-width: 710px;
+}
+
+table,
+tr,
+td {
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+td {
+    font-size: 12px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #333333;
+}
+
+.wrapper {
+    display: block;
+    text-align: -webkit-center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*header*/
+
+.head_tab {
+    background-color: #FFFFFF;
+    border: 0px;
+    width: 710px;
+}
+
+.head_tab_text {
+    text-align: right;
+}
+
+.head_tab_text span {
+    color: #FF0099;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.head_tab_text a {
+    text-decoration: none
+}
+
+
+/*end header*/
+
+
+/*conter*/
+
+.center_tab {
+    background-color: #FFFFFF;
+    border: 0px;
+    width: 710px;
+}
+
+.center_tab_body_head {
+    text-align: center;
+    background-image: url("../img/beijin1.gif");
+}
+
+.th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.center_tab_body {
+    width: 90%;
+    /*    text-align: center;*/
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+.center_tab_body tr td {
+    border: 1px solid #CCCCCC;
+}
+
+.tab_span {
+    color: red;
+}
+
+.center_tab_body_th {
+    background-color: #EEEEEE;
+    text-align: left;
+}
+
+.tab_td_span {
+    color: #003399;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.tab_span_text {
+    color: #0000FF;
+}
+
+
+/*end conter*/

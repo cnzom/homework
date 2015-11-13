@@ -1,0 +1,78 @@
+*{ margin:0; padding:0;}
+body{
+    background:#fff; 
+	padding-top:60px;
+}
+html,body{ height:100%;}
+.input{width: 150px;}
+.container{
+    margin:0 auto;
+	width:600px;
+}
+/*logo图片*/
+.container .logobox { width:120px;  margin:0 auto;}
+.container .logobox img { width:120px;}
+/*欢迎语*/
+.container .welcome { width:400px; text-align:center; margin:0 auto;font-size:16px; color:#666;margin-top: 17px;}
+/*工具框*/
+.container .tools{ width:500px; height:290px; border-radius:32px; background:#ccc; margin-top:20px; padding:20px 40px;}
+.container .tools  { position:relative;}
+.container .tools div{ margin-top:10px;}
+.container .tools div span ,.chooseScore span{ background-color: #35b558;
+    color: #fff !important;
+    transform: translateZ(0px);
+    transition-duration: 0.8s;
+    transition-property: background;
+	-moz-user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+	margin-left:8px;
+	margin-right:8px;}
+.container .tools div span:hover,.chooseScore span:hover{ background-color: #66d178;}
+.container .tools div span:nth-child(6):hover{background-color: #FF6670 !important;}
+.container .tools div .active{background-color: #cc4125;}
+.container .tools div .active:hover{background-color: #a61c00;}
+.container .tools div a {
+    display: inline-block;
+    text-align: right;
+    width: 92px;
+}
+.container .tools div .result {
+    background: #dddd20 none repeat scroll 0 0;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+.container .tools .resultbox{ font-size:28px; text-align:center; margin-top:10px;}
+.container .chooseScore{background: rgba(255, 255, 255, 0.9); 
+	border:4px solid #fff;
+	padding: 20px; 
+	position:absolute; 
+	top:55px; 
+	left:55px;
+	width:325px;
+	z-index:5;
+	display:none;
+	border: 3px solid #666;
+	}
+.container .chooseScore #about{ margin-top:10px; list-style-type:circle;}
+.container .bgBox{ width:100%; height:100%; z-index:2; display:none; position:absolute; top:0; left:0;}
+.container .tools .resultbox span {
+    background: #fff none repeat scroll 0 0;
+    color: #000 !important;
+    font-size: 21px;
+    padding: 5px 28px;
+}
+
+
+
+

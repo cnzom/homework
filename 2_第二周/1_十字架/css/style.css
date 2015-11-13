@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.top {
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -160px;
+    background-color: rgba(255, 10, 22, 0.5);
+    box-shadow: 0 0 50px rgba(6, 25, 204, 0.65);
+}
+
+.left {
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -50px;
+    background-color: #ffad51;
+    box-shadow: 0 0 50px rgba(0, 204, 204, 0.55);
+}
+
+.rig {
+    top: 50%;
+    left: 50%;
+    margin-left: 60px;
+    margin-top: -50px;
+    background-color: rgba(247, 255, 30, 0.6);
+    box-shadow: 0px 0px 50px rgba(47, 222, 117, 0.57);
+}
+
+.bon {
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 60px;
+    background-color: #a1ffc9;
+    box-shadow: 0px 0px 50px #cc5cc2;
+}
+
+.con {
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    background-color: rgba(9, 1, 204, 0.73);
+    margin-left: -50px;
+    margin-top: -50px;
+    box-shadow: inset -15px 0px 30px #ff85a5, inset 15px 0px 30px #C7FF92, inset 0px -15px 30px #0d9eff, inset 0px 15px 30px #CADCF4, 0px 0px 20px rgba(23, 145, 204, 0.75);
+    transition-duration: 0.1s;
+    transition-property: transform;
+    transform: rotateY(45deg);
+    opacity: 1;
+    transform-style: preserve-3d;
+    animation: spin 2s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(360deg);
+    }
+}

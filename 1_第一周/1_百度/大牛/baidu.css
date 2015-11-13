@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+}
+html,body
+{
+	width:100%;
+	height:100%;
+    font: 12px arial;
+}
+.clear
+{
+    clear: both;
+}
+span
+{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.box{
+	min-height:600px;
+	min-width: 810px;
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+/* 顶部导航样式*/
+header
+{
+	position:absolute;
+	z-index: 100;
+	top:0;
+	right:0;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 0 5px 0;
+}
+header nav
+{
+    float: right;
+}
+nav ul li
+{
+    float: left;
+
+    margin-left: 20px;
+    padding: 3px 0 3px 0;
+
+    list-style: none;
+}
+nav li a
+{
+    font-weight: bold;
+
+    text-decoration: underline;
+
+    color: black;
+}
+nav li a:hover{
+	color:#3385ff;
+}
+.item a
+{
+    font-weight: normal;
+}
+.more
+{
+    margin-right: 10px;
+
+    background-color: #3385ff;
+}
+.more a
+{
+    font-size: 12px;
+    font-weight: normal;
+
+    padding: 3px;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+.more a:hover{
+	color:#fff;
+}
+
+/*中间搜索样式*/
+.Content
+{
+    width: 100%;
+    height:210px;
+    position:relative;
+    top:40%;
+}
+.ContentBox{
+	position:absolute;
+	top:-210px;
+	width:100%;
+}
+.Content .logo
+{
+    width: 270px;
+    height: 130px;
+    margin: 0 auto;
+}
+.Content .input
+{
+    width: 650px;
+    margin: 22px auto;
+}
+.Content .textSpan
+{
+/*     border-bottom: 1px solid #b6b6b6; */
+    height:36px;
+	border :none;
+    vertical-align: top;
+    overflow:hidden;
+}
+.Content .buttonSpan
+{
+    margin-left: -3px;
+}
+.Content #text
+{
+    width: 525px;
+    height:34px;
+    padding: 0 10px;
+    font-size: 18px;
+	border: 1px solid #b6b6b6;
+	border-right-color: transparent;
+    /* outline:#3385ff solid 1px; */
+
+}
+.Content #text:hover{
+	border:1px solid #9B9B9B;
+	border-right-color: transparent;
+}
+.Content #text:focus{
+	border:1px solid #3385ff;
+	border-right-color: transparent;
+}
+.Content #btn
+{
+    font-size: 15px;
+    width: 100px;
+    height: 36px;
+	cursor: pointer;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #2d78f4;
+    background-color: #3385ff;
+    margin-left: -1px;
+}
+.Content #btn:hover{
+	background-color: #317ef3;
+}
+
+/*尾部样式*/
+footer
+{
+    width: 100%;
+    color: #666;
+    position:absolute;
+    bottom:100px;
+}
+footer .footerContent
+{
+    width: 700px;
+    margin: 0 auto;
+}
+.top,
+.bottom
+{
+    padding: 3px;
+
+    text-align: center;
+}
+.top a
+{
+    margin: 10px;
+
+    text-decoration: underline;
+}
+.bottom a
+{
+    text-decoration: underline;
+
+    color: #666;
+}
+.icon
+{
+    display: inline-block;
+
+    width: 20px;
+    height: 17px;
+    margin-left: -5px;
+
+    vertical-align: bottom;
+
+    background-image: url('icon.png');
+    background-position: center;
+}

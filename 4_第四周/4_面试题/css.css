@@ -1,0 +1,41 @@
+.a1 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: #ddd;
+}
+
+.a2 .row {
+    margin-bottom: 10px;
+}
+
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+.a3 {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+.a5:hover {
+    background-color: green;
+}
+
+.a5:focus {
+    background-color: orange;
+}
+
+.a5:active {
+    background-color: red;
+}
+
+.a7 {
+    table-layout: fixed;
+    width: 350px;
+}

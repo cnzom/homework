@@ -1,0 +1,262 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/**header*/
+
+#header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+#header_mnav{
+    width: 436px;
+    height: 48px;
+    position: relative;
+    z-index: 2;
+    float: right;
+    top: 20px;
+}
+
+#header .mnav{
+    float: left;
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+#gdcp {
+
+    float: left;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: none;
+
+    background: #38f;
+    border-bottom: 1px solid #38f;
+    border-left: 5px solid #38f;
+    border-right: 5px solid #38f;
+
+}
+
+
+#header_mnav .mnav:link{
+    color: #333;
+}
+#header_mnav .mnav:visited{
+    color: #333;
+}
+#header_mnav .mnav:hover{
+    color: blue;
+}
+#header_mnav .mnav:active{
+    color: #333;
+}
+
+
+
+/* end  header*/
+
+
+
+
+/*bodyer*/
+
+#bodyer{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+
+}
+
+#body_form{
+    width: 100%;
+    height: 191px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 280px;
+}
+
+#body_form_img{
+    width: 270px;
+    height: 129px;
+    margin: 0px auto;
+}
+
+#body_form_form{
+    margin: 0px auto;
+    width: 670px;
+    height: 37px;
+
+}
+
+
+#body_form_a{
+    width: 640px;
+    height: 20px;
+    margin: 0px auto;
+    padding: 10px;
+
+}
+
+#body_form_a .nnav{
+    padding: 5px;
+}
+
+
+#body_nav a:link{
+    color: red;
+}
+#body_nav a:visited{
+    color: blue;
+}
+#body_nav a:hover{
+    color: green;
+}
+#body_nav a:active{
+    color: orangered;
+}
+
+.form_texe_div{
+    width: 540px;
+    height: 36px;
+    border-top: 1px solid #C9C7C8;
+    border-bottom: 1px solid #C9C7C8;
+    border-left: 1px solid #C9C7C8;
+    float: left;
+}
+
+
+
+.form_button_div{
+    width: 100px;
+    height: 36px;
+    border:  1px solid #38f;
+    float: left;
+}
+
+.form_texe{
+    width: 500px;
+    height: 22px;
+}
+
+.form_button{
+    width: 100px;
+    height: 36px;
+}
+
+.ipt_rec{
+    position: absolute;
+    height: 32px;
+    width: 30px;
+    background: url(../img/tcp.png) no-repeat center;
+    background-size: 25px 25px;
+    background-position: 0 50%;
+    cursor: pointer;
+}
+
+.form_texe{
+    width: 500px;
+    height: 22px;
+    font: 16px/18px arial;
+    line-height: 22px\9;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+.form_button{
+    width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+
+
+
+/*end  bodyer*/
+
+
+
+/*footer*/
+
+
+
+#footer{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-bottom: 50px;
+}
+
+.foot_f{
+    width: 720px;
+    height: 38px;
+    margin: 0px auto;
+    text-align:center
+}
+
+#lh a{
+    color: #00c;
+    font: 12px arial;
+}
+
+#cp a,#cp {
+    color: #666;
+    font: 12px arial;
+}
+
+.c-icon-icrlogo{
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(../img/icons.png) no-repeat;
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+/*end  footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

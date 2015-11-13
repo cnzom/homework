@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+html,body {
+    width:100%;
+    height:100%;
+    font: 12px arial;
+}
+.clear {
+    clear: both;
+}
+span {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.box{
+    min-height:600px;
+    min-width: 810px;
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+/* 顶部样式*/
+
+
+.head_nav{
+    float: right;
+    width: 450px;
+    height: 24px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.head_nav .mnav{
+    float: left;
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+
+}
+
+.head_nav .item{
+    float: left;
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: normal;
+
+}
+
+.more {
+
+    float: left;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    background: #38f;
+    border-bottom: 1px solid #38f;
+    border-left: 5px solid #38f;
+    border-right: 5px solid #38f;
+
+}
+
+.head_nav .mnav:hover{
+    color: blue;
+}
+
+.head_nav .item:hover{
+    color: blue;
+}
+
+
+/* end  顶部样式*/
+/*主体样式*/
+
+
+.bodyer{
+    width: 100%;
+    height: 210px;
+    position: absolute;
+    top: 40%;
+    z-index: 0;
+
+}
+
+.body_wrapper{
+    position: absolute;
+    top: -210px;
+    width: 100%;
+    z-index: 5;
+}
+
+.body_wrapper_img{
+    width: 270px;
+    height: 130px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.fort_button{
+    width: 100px;
+    height: 36px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #2d78f4;
+    background-color: #3385ff;
+    margin-left: -1px;
+    float: right;
+    position: absolute;
+}
+.fort_button:hover{
+    background-color: #317ef3;
+}
+
+
+.input
+{
+    width: 650px;
+    margin: 22px auto;
+}
+.textSpan
+{
+    height:36px;
+    border :none;
+    vertical-align: top;
+    overflow:hidden;
+    float: left;
+}
+.buttonSpan {
+    margin-left: -3px;
+    float: left;
+}
+
+#text {
+    width: 500px;
+    height:34px;
+    padding: 0 10px;
+    font-size: 18px;
+    border: 1px solid #b6b6b6;
+    border-right-color: transparent;
+    float: left;
+
+}
+
+
+
+
+
+#text:hover{
+    border:1px solid #9B9B9B;
+    border-right-color: transparent;
+}
+#text:focus{
+    border:1px solid #3385ff;
+    border-right-color: transparent;
+}
+#btn {
+    font-size: 15px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #2d78f4;
+    background-color: #3385ff;
+    margin-left: -1px;
+}
+#btn:hover{
+    background-color: #317ef3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end  主体样式*/
+
+/*底部样式*/
+
+#footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border-bottom: 50px;
+    bottom: 44px;
+}
+
+.foot_f{
+    width: 720px;
+    height: 38px;
+    margin: 0px auto;
+    text-align:center
+}
+
+#lh a{
+    color: #00c;
+    font: 12px arial;
+    margin: 4px;
+}
+
+#cp a,#cp {
+    color: #666;
+    font: 12px arial;
+}
+
+.c-icon-icrlogo {
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(../img/icons.png) no-repeat;
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+
+/*end 底部样式*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

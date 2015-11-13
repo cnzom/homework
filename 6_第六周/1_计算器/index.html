@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <table width="400" border="1">
+            <tbody>
+                <tr>
+                    <td colspan="6">
+                        <div class="answer">
+                            <p id="equations"></p>
+                            <p id="answerid">0</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="myFun('7')">7</button>
+                    </td>
+                    <td>
+                        <button onclick="myFun('8')">8</button>
+                    </td>
+                    <td>
+                        <button onclick="myFun('9')">9</button>
+                    </td>
+                    <td>
+                        <button onclick="myFun('+')">＋</button>
+                    </td>
+                    <td>
+                        <button onclick="cos()">cos</button>
+                    </td>
+                    <td>
+                        <button onclick="off ()">关机</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button  onclick="myFun('4')">4</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('5')">5</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('6')">6</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('-')">－</button>
+                    </td>
+                    <td>
+                        <button  onclick="sin()">sin</button>
+                    </td>
+                    <td>
+                        <button  onclick="del()">退格</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button  onclick="myFun('1')">1</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('2')">2</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('3')">3</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('*')">×</button>
+                    </td>
+                    <td>
+                        <button onclick="tan()">tan</button>
+                    </td>
+                    <td>
+                        <button onclick="Eli()">清屏</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button  onclick="myFun('0')">0</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('.')">·</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('-')">+/-</button>
+                    </td>
+                    <td>
+                        <button  onclick="myFun('/')">÷</button>
+                    </td>
+                    <td colspan="2">
+                        <button onclick="myFFF ()">=</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="Angel.js" id="angel"></script>
+    <script type="text/javascript">
+    function off () {
+        window.close()
+    }
+    </script>
+</body>
+
+</html>

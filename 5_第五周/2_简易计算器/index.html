@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form>
+            <p>简易计算器</p>
+            <hr/>
+            <p>请输入第一个数:</p>
+            <input type="text" id="input_a" style="width:180px;" />
+            <p>请输入第二个数:</p>
+            <input type="text" id="input_b" style="width:180px;" />
+            <p>选择运算符号</p>
+            <div class="symbol" id="but_add" value="1" onclick="calculate (1)">加</div>
+            <div class="symbol" id="but_sub" value="2" onclick="calculate (2)">减</div>
+            <div class="symbol" id="but_mul" value="3" onclick="calculate (3)">乘</div>
+            <div class="symbol" id="but_div" value="4" onclick="calculate (4)">除</div>
+        </form>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

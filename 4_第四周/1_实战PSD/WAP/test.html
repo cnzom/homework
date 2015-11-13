@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>响应式测试</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /*.left {
+        float: left;
+        width: 33.33333333%;
+        height: 400px;
+        background-color: yellowgreen;
+    }
+    
+    .middle {
+        float: left;
+        width: 33.33333333%;
+        height: 400px;
+        background-color: green;
+    }
+    
+    .right {
+        float: left;
+        width: 33.33333333%;
+        height: 400px;
+        background-color: #ddd;
+    }
+    */
+    @media only screen and (min-width: 740px) {
+        .left {
+            float: left;
+            width: 33.333333%;
+            height: 400px;
+            background-color: yellowgreen;
+        }
+        .middle {
+            float: left;
+            width: 33.333333%;
+            height: 400px;
+            background-color: green;
+        }
+        /*        .right {
+            float: left;
+            width: 30%;
+            height: 400px;
+            background-color: #ddd;
+        }*/
+    }
+    
+    @media only screen and (max-width: 470px) {
+        .left {
+            float: left;
+            width: 100%;
+            height: 400px;
+            background-color: yellowgreen;
+        }
+        .middle {
+            float: left;
+            width: 100%;
+            height: 400px;
+            background-color: green;
+        }
+        .right {
+            float: left;
+            width: 100%;
+            height: 400px;
+            background-color: #ddd;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="left">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>
+    <div class="middle">cccccccccccccccccccccccccccccccc</div>
+    <div class="right">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+</body>
+
+</html>

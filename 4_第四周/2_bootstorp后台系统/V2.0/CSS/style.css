@@ -1,0 +1,10 @@
+.myheading{
+	background-color: #333;
+}
+.myfooter{
+	margin: 50px 0 0 0;
+	padding: 20px 0 20px 0;
+	color: #767676;
+	text-align: center;
+	border-top: solid 1px #ddd; 
+}
